@@ -1,8 +1,8 @@
 ## Stack
 
 - Python 3.x, pandas, Google BigQuery (google-cloud-bigquery)
-- Jupyter notebooks
-- SQL for data warehouse queries
+- Jupyter notebooks (.ipynb)
+- SQL for data warehouse queries (often pasted directly in notebook cells)
 
 ## Code Conventions
 
@@ -11,12 +11,6 @@
 - Show complete runnable code, not fragments
 - Do not modify files unless explicitly asked
 
-## Project Context
+## Important
 
-This workspace uses Project Pilot for project memory.
-- Project state lives in `.context/` as Markdown files
-- `/start` — create a new project
-- `/capture` — extract project context from the current chat
-- `/resume {slug}` — load an existing project's context
-- `/pause {slug}` — save progress (auto-extracts from chat)
-- `/projects` — list all tracked projects
+- Copilot Chat must be in **Agent mode** for slash commands to work. If /start or other commands don't appear, switch to Agent mode using the mode picker at the top of the chat panel.
